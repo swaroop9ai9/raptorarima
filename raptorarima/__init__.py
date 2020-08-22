@@ -1,4 +1,4 @@
-name = "raptor_arima_api"
+name = "raptorarima"
 
 
 
