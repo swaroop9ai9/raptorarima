@@ -16,7 +16,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/swaroop9ai9/raptorarima",
-	dependency_links=['https://github.com/swaroop9ai9/raptorarima/blob/master/raptorarima/autoregressive.py','https://github.com/swaroop9ai9/raptorarima/blob/master/raptorarima/differencing.py','https://github.com/swaroop9ai9/raptorarima/blob/master/raptorarima/movingaverage.py','https://github.com/swaroop9ai9/raptorarima/blob/master/raptorarima/plots.py']
+    dependency_links=['https://github.com/swaroop9ai9/raptorarima/blob/master/raptorarima/autoregressive.py','https://github.com/swaroop9ai9/raptorarima/blob/master/raptorarima/differencing.py','https://github.com/swaroop9ai9/raptorarima/blob/master/raptorarima/movingaverage.py','https://github.com/swaroop9ai9/raptorarima/blob/master/raptorarima/plots.py'],
     packages=setuptools.find_packages(),
     install_requires=INSTALL_REQUIRES,
     classifiers=[
