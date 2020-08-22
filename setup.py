@@ -8,7 +8,7 @@ INSTALL_REQUIRES = (
 
 
 setuptools.setup(
-    name="raptor_arima_api",
+    name="raptorarima",
     version="0.0.1",
     author="M V D SATYA SWAROOP",
     author_email="swaroop9ai9@gmail.com",
