@@ -3,7 +3,7 @@ import setuptools
 with open("README.md","r") as fh:
 	long_description = fh.read()
 INSTALL_REQUIRES = (
-    ['pandas', 'requests']
+    ['pandas', 'numpy','random']
 )
 
 
@@ -15,7 +15,8 @@ setuptools.setup(
     description="Implementation of ARIMA model (Auto Regressive Integrated Moving Average)",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/swaroop9ai9/Fintech/raptor_arima_api",
+    url="https://github.com/swaroop9ai9/raptorarima",
+	dependency_links=['https://github.com/swaroop9ai9/raptorarima/blob/master/raptorarima/autoregressive.py','https://github.com/swaroop9ai9/raptorarima/blob/master/raptorarima/differencing.py','https://github.com/swaroop9ai9/raptorarima/blob/master/raptorarima/movingaverage.py','https://github.com/swaroop9ai9/raptorarima/blob/master/raptorarima/plots.py']
     packages=setuptools.find_packages(),
     install_requires=INSTALL_REQUIRES,
     classifiers=[
