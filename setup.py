@@ -3,7 +3,7 @@ import setuptools
 with open("README.md","r") as fh:
 	long_description = fh.read()
 INSTALL_REQUIRES = (
-    ['pandas', 'numpy','random']
+    ['pandas', 'numpy']
 )
 
 
