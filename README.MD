@@ -1,7 +1,6 @@
-# Yahoo Finance Python API
+# Raptor ARIMA Model Python API
 
-* This API Supports to retrieve data especially works for NSE/BSE stocks.
-* Also can Retrieve Intraday 1min gradualar Data.
+* This API Supports to model time series data using box-jenkins model.
 
 # Python Installation:
 * Command for installation: 'pip3 install raptorarima'
